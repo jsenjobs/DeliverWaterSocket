@@ -1,0 +1,1 @@
+exports.RegisterTask = require('./Task').RegisterTask

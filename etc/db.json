@@ -1,0 +1,12 @@
+{
+  "Mongo": {
+    "Url": "mongodb://null:null@127.0.0.1:27017/deliverwater"
+  },
+  "Redis": {
+    "Url": "redis://null:null@127.0.0.1:6379/null"
+  },
+  "Mysql": {
+    "Url": "mysql://username:password@127.0.0.1:3306/template"
+  },
+  "SessionTimeOut": 18000
+}

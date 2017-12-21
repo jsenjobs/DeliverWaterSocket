@@ -1,0 +1,134 @@
+2017-12-20 13:12:22.340 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:22.343 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:22.347 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-20 13:12:22.349 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:22.402 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:22.504 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:22.658 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:22.863 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:22.919 [main] ERROR server - [object Object]
+2017-12-20 13:12:22.920 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:22.921 [main] INFO server - 服务器端口：7083
+2017-12-20 13:12:22.924 [main] ERROR MongoseIniter - [object Object]
+2017-12-20 13:12:22.925 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:22.979 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.079 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:23.085 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.119 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.239 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.279 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:23.421 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.441 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.693 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.779 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:23.998 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:24.185 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:24.201 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:24.200 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:24.352 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:24.642 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:24.758 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:25.147 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:25.214 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:25.224 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:25.703 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:25.714 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:26.145 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:26.159 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:26.271 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:26.307 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:26.877 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:59.672 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:59.674 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:59.678 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-20 13:12:59.679 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:59.733 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:59.833 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:59.985 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.172 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:00.187 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.258 [main] ERROR server - [object Object]
+2017-12-20 13:12:00.259 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:00.260 [main] INFO server - 服务器端口：7083
+2017-12-20 13:12:00.263 [main] ERROR MongoseIniter - [object Object]
+2017-12-20 13:12:00.265 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.322 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.425 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.439 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.578 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.745 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:00.779 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:01.035 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:01.099 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:01.130 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:01.340 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:01.505 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:01.695 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:01.963 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:02.100 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:17.730 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:17.732 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:17.735 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-20 13:12:17.737 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:17.788 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:17.894 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.045 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.079 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:18.247 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.319 [main] ERROR server - [object Object]
+2017-12-20 13:12:18.319 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:18.321 [main] INFO server - 服务器端口：7083
+2017-12-20 13:12:18.324 [main] ERROR MongoseIniter - [object Object]
+2017-12-20 13:12:18.326 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.384 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.488 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.499 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.642 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.800 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:18.844 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:19.099 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:19.156 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:19.174 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:19.175 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:19.400 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:19.563 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:19.756 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:20.016 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:20.155 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:20.157 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:20.170 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:20.522 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:20.609 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:21.059 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:21.075 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:21.111 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:21.125 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:35.438 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:35.440 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:35.444 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-20 13:12:35.446 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:35.500 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:35.605 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:35.761 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:35.963 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.023 [main] ERROR server - [object Object]
+2017-12-20 13:12:36.024 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-20 13:12:36.025 [main] INFO server - 服务器端口：7083
+2017-12-20 13:12:36.028 [main] ERROR MongoseIniter - [object Object]
+2017-12-20 13:12:36.029 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.084 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.187 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.190 [main] ERROR Task - Failure,Error: network error
+2017-12-20 13:12:36.218 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.344 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.525 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.544 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 13:12:36.796 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-20 16:12:45.082 [main] INFO RedisIniter - connect
+2017-12-20 16:12:45.097 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 16:12:45.101 [main] INFO RedisIniter - Ready
+2017-12-20 16:12:45.786 [main] INFO server - 服务器端口：7083
+2017-12-20 16:12:45.796 [main] INFO RedisIniter - connect
+2017-12-20 16:12:45.805 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-20 16:12:45.807 [main] INFO RedisIniter - Ready
+2017-12-20 16:12:51.227 [main] INFO ControllerDeliver - queryByDay Api Call

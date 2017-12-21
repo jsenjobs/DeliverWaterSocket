@@ -1,0 +1,4 @@
+message AuthorizationInfo {
+  repeated string roles = 1;
+  repeated string permissions = 2;
+}

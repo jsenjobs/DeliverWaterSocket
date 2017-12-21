@@ -1,0 +1,88 @@
+{
+  "appStatus": {
+    "params": [
+      {
+        "name": "info",
+        "type": "任意",
+        "des": "详细信息",
+        "necessary": false
+      }
+    ],
+    "_links": "/app/status",
+    "method": "GET",
+    "des": "服务器信息"
+  },
+  "listinfo": {
+    "params": [],
+    "_links": "/app/listinfo",
+    "method": "GET",
+    "des": "显示api信息"
+  },
+  "getLog": {
+    "params": [
+      {
+        "name": "filename",
+        "type": "string",
+        "des": "日志文件名字",
+        "necessary": false
+      }
+    ],
+    "_links": "/app/getLog",
+    "method": "GET",
+    "des": "获取日志文件，beta"
+  },
+  "queryOrderByDay": {
+    "params": [
+      {
+        "name": "date",
+        "type": "string",
+        "des": "查询的时间"
+      }
+    ],
+    "_links": "/order/query/day",
+    "method": "GET",
+    "des": "根据时间查询订单"
+  },
+  "finishSend": {
+    "params": [
+      {
+        "name": "order",
+        "type": "string",
+        "des": "订单id"
+      }
+    ],
+    "_links": "/order/sended/:order",
+    "method": "GET",
+    "des": "标记完成订单"
+  },
+  "queryOrderById": {
+    "params": [
+      {
+        "name": "id",
+        "type": "string",
+        "des": "查询的用户id （openid）"
+      }
+    ],
+    "_links": "/order/query/id",
+    "method": "GET",
+    "des": "根据时间查询订单"
+  },
+  "order_notify": {
+    "params": [],
+    "_links": "/order_notify",
+    "method": "POST",
+    "des": "微信支付完成通知 生成一个支付完成的订单, 传入xml数据(https)"
+  },
+  "ok_notify": {
+    "params": [
+      {
+        "name": "out_trade_no",
+        "type": "string",
+        "des": "订单out_trade_no"
+      }
+    ],
+    "_links": "/ok_notify/:out_trade_no",
+    "method": "GET",
+    "des": "商家确认订单(https)"
+  }
+}

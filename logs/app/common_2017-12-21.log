@@ -1,0 +1,1170 @@
+2017-12-21 12:12:17.086 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:17.088 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:17.092 [main] ERROR MongoseIniter - MongoError: failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+2017-12-21 12:12:17.093 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.149 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.251 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.404 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.607 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.707 [main] ERROR server - [object Object]
+2017-12-21 12:12:17.707 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:17.709 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:17.712 [main] ERROR MongoseIniter - [object Object]
+2017-12-21 12:12:17.713 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.766 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.859 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:17.866 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:18.019 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:18.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.162 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:18.222 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:18.478 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:18.515 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:18.781 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:18.918 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:19.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.135 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:19.370 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:19.536 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:19.877 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:19.989 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:20.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.428 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:20.496 [main] ERROR RedisIniter - error Error: connect ECONNREFUSED 127.0.0.1:6379
+2017-12-21 12:12:54.410 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:54.413 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:54.420 [main] INFO RedisIniter - connect
+2017-12-21 12:12:54.430 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:54.434 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:55.035 [main] ERROR server - [object Object]
+2017-12-21 12:12:55.036 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:55.037 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:55.045 [main] INFO RedisIniter - connect
+2017-12-21 12:12:55.051 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:55.053 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:55.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.675 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:27.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.146 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.172 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.089 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.707 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:55.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.084 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.085 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.091 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.151 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.152 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.662 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:21.664 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:21.672 [main] INFO RedisIniter - connect
+2017-12-21 12:12:21.683 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:21.686 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:22.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.315 [main] ERROR server - [object Object]
+2017-12-21 12:12:22.316 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:22.318 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:22.325 [main] INFO RedisIniter - connect
+2017-12-21 12:12:22.335 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:22.338 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:23.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.698 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:27.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.149 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.146 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.094 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.172 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.098 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.100 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.089 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.091 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.157 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.834 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:45.836 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:45.844 [main] INFO RedisIniter - connect
+2017-12-21 12:12:45.852 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:45.854 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:46.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.406 [main] ERROR server - [object Object]
+2017-12-21 12:12:46.407 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-21 12:12:46.408 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:46.414 [main] INFO RedisIniter - connect
+2017-12-21 12:12:46.420 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:46.422 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:47.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.087 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.090 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.085 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.155 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.160 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.091 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.091 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.115 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.115 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.089 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.197 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.198 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.109 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.064 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.094 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.094 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.102 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.092 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.101 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.104 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.108 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.083 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.171 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.171 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.088 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.181 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.108 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.192 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.115 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.115 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.088 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.089 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.098 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.096 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.094 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.089 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.098 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.100 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.063 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.095 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.139 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.139 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.075 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.146 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.089 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.087 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.118 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.118 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.125 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.125 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.089 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.100 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.081 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.090 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.087 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.208 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.208 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.150 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:23.151 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:24.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:25.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:26.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.097 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:27.097 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:28.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:29.103 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.093 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:30.102 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:31.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:32.102 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:33.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:34.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.100 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:35.106 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:37.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:38.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.094 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:39.094 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:40.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:41.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:42.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:43.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:44.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.103 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:45.111 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:46.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.093 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:47.094 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:48.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.065 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:49.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:50.072 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:51.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:52.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:53.127 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:54.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:55.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:56.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:57.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:58.095 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:59.073 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:00.087 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.088 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:01.088 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.294 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:02.294 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.143 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:03.156 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.108 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:04.115 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.090 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:05.090 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.078 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:06.082 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.090 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:07.581 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:08.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:08.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:09.077 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.066 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:10.067 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:11.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.080 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:12.086 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:13.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.087 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:14.087 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:15.079 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:16.074 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:17.076 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:18.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.068 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:19.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:20.071 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.069 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:21.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:22.070 [main] ERROR Task - Failure,Error: network error
+2017-12-21 12:12:36.138 [main] INFO RedisIniter - connect
+2017-12-21 12:12:36.149 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:36.153 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:36.787 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:36.795 [main] INFO RedisIniter - connect
+2017-12-21 12:12:36.802 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:36.804 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:40.937 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:44.735 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:36.208 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:53.909 [main] INFO RedisIniter - connect
+2017-12-21 12:12:53.921 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:53.924 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:54.480 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:54.487 [main] INFO RedisIniter - connect
+2017-12-21 12:12:54.493 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:54.496 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:57.799 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:16.665 [main] INFO RedisIniter - connect
+2017-12-21 12:12:16.678 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:16.681 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:17.266 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:17.273 [main] INFO RedisIniter - connect
+2017-12-21 12:12:17.281 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:17.285 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:19.725 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 12:12:50.696 [main] INFO RedisIniter - connect
+2017-12-21 12:12:50.706 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:50.708 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:51.291 [main] INFO server - 服务器端口：7083
+2017-12-21 12:12:51.299 [main] INFO RedisIniter - connect
+2017-12-21 12:12:51.306 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 12:12:51.308 [main] INFO RedisIniter - Ready
+2017-12-21 12:12:53.354 [main] INFO ControllerSocketServer - order receive Notify Api Call
+2017-12-21 15:12:13.649 [main] INFO RedisIniter - connect
+2017-12-21 15:12:13.662 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:13.665 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:14.330 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:14.337 [main] INFO RedisIniter - connect
+2017-12-21 15:12:14.347 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:14.349 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:39.767 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:05.270 [main] INFO RedisIniter - connect
+2017-12-21 15:12:05.281 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:05.283 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:05.938 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:05.947 [main] INFO RedisIniter - connect
+2017-12-21 15:12:05.955 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:05.958 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:09.263 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:39.574 [main] INFO RedisIniter - connect
+2017-12-21 15:12:39.585 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:39.588 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:40.210 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:40.219 [main] INFO RedisIniter - connect
+2017-12-21 15:12:40.226 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:40.229 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:50.956 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:49.328 [main] INFO RedisIniter - connect
+2017-12-21 15:12:49.338 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:49.343 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:49.988 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:49.996 [main] INFO RedisIniter - connect
+2017-12-21 15:12:50.004 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:50.006 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:53.870 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:03.320 [main] INFO RedisIniter - connect
+2017-12-21 15:12:03.331 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:03.335 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:03.979 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:03.987 [main] INFO RedisIniter - connect
+2017-12-21 15:12:03.993 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:03.997 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:08.074 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:16.929 [main] INFO RedisIniter - connect
+2017-12-21 15:12:16.940 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:16.945 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:17.567 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:17.576 [main] INFO RedisIniter - connect
+2017-12-21 15:12:17.583 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:17.586 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:22.392 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:31.705 [main] INFO RedisIniter - connect
+2017-12-21 15:12:31.718 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:31.722 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:32.382 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:32.391 [main] INFO RedisIniter - connect
+2017-12-21 15:12:32.400 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:32.404 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:38.982 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:45.312 [main] INFO RedisIniter - connect
+2017-12-21 15:12:45.323 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:45.327 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:45.976 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:45.985 [main] INFO RedisIniter - connect
+2017-12-21 15:12:45.993 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:45.996 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:48.990 [main] INFO ControllerDeliver - queryByDay Api Call
+2017-12-21 15:12:46.421 [main] INFO RedisIniter - connect
+2017-12-21 15:12:46.432 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:46.435 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:47.065 [main] INFO server - 服务器端口：7083
+2017-12-21 15:12:47.071 [main] INFO RedisIniter - connect
+2017-12-21 15:12:47.080 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-21 15:12:47.082 [main] INFO RedisIniter - Ready
+2017-12-21 15:12:53.278 [main] INFO ControllerDeliver - queryByDay Api Call

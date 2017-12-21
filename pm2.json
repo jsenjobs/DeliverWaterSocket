@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "microserverDeliverWaterSocket",
+      "script": "./product/bundle.js",
+      "watch": true,
+      "env": {
+        "NODE_ENV": "development",
+        "HOST": "127.0.0.1"
+      },
+      "env_production": {
+        "NODE_ENV": "production",
+        "HOST": "59.110.168.95"
+      }
+    }
+  ]
+}

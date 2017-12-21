@@ -1,0 +1,142 @@
+2017-12-19 15:12:28.369 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 15:12:28.371 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 15:12:12.589 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 15:12:12.591 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:12.711 [main] ERROR server - Error: You are trying to attach socket.io to an express request handler function. Please pass a http.Server instance.
+2017-12-19 16:12:12.714 [main] ERROR server - Error: You are trying to attach socket.io to an express request handler function. Please pass a http.Server instance.
+    at Server.listen.Server.attach (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/node_modules/_socket.io@2.0.4@socket.io/lib/index.js:222:11)
+    at new Server (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/node_modules/_socket.io@2.0.4@socket.io/lib/index.js:56:17)
+    at Server (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/node_modules/_socket.io@2.0.4@socket.io/lib/index.js:42:41)
+    at Object.exports.init (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/app/utils/wsocket/socket.initer.js:11:32)
+    at Server.<anonymous> (/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/server.js:82:52)
+    at Object.onceWrapper (events.js:254:19)
+    at Server.emit (events.js:159:13)
+    at emitListeningNT (net.js:1394:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+    at Function.Module.runMain (module.js:684:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:613:3
+2017-12-19 16:12:05.076 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:05.078 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:05.692 [main] ERROR server - [object Object]
+2017-12-19 16:12:05.692 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:54.092 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:54.094 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:54.669 [main] ERROR server - [object Object]
+2017-12-19 16:12:54.670 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:58.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:58.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:59.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:59.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:00.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:00.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:01.005 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:01.005 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:02.001 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:02.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:03.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:03.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:04.001 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:04.001 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:05.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:05.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:06.007 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:06.007 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:07.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:07.007 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:08.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:08.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:09.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:09.001 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:10.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:10.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:11.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:11.007 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:12.001 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:12.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:13.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:13.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:14.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:14.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:15.009 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:15.007 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:16.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:16.007 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:17.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:17.005 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:18.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:18.003 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:19.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:19.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:20.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:20.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:21.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:21.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:22.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:22.002 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:23.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:23.004 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:24.001 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:24.001 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:25.005 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:25.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:26.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:26.006 [main] ERROR Task - Failure,Error: network error
+2017-12-19 16:12:20.155 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:20.157 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 16:12:20.725 [main] ERROR server - [object Object]
+2017-12-19 16:12:20.725 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:15.212 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:15.214 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:15.802 [main] ERROR server - [object Object]
+2017-12-19 17:12:15.803 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:46.664 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:46.668 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:47.233 [main] ERROR server - [object Object]
+2017-12-19 17:12:47.234 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:47.235 [main] ERROR server - [object Object]
+2017-12-19 17:12:02.524 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:02.527 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:03.115 [main] ERROR server - [object Object]
+2017-12-19 17:12:03.116 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:03.119 [main] ERROR server - [object Object]
+2017-12-19 17:12:14.274 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:14.277 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:14.859 [main] ERROR server - [object Object]
+2017-12-19 17:12:14.860 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:14.862 [main] ERROR server - [object Object]
+2017-12-19 17:12:50.805 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:50.809 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:51.403 [main] ERROR server - [object Object]
+2017-12-19 17:12:51.404 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:51.406 [main] ERROR server - [object Object]
+2017-12-19 17:12:19.852 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:19.854 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:20.439 [main] ERROR server - [object Object]
+2017-12-19 17:12:20.440 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:20.441 [main] ERROR server - [object Object]
+2017-12-19 17:12:43.752 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:43.755 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:44.340 [main] ERROR server - [object Object]
+2017-12-19 17:12:44.340 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:28.220 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:28.223 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 17:12:28.842 [main] ERROR server - [object Object]
+2017-12-19 17:12:28.843 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:18.461 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:18.463 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:19.045 [main] ERROR server - [object Object]
+2017-12-19 19:12:19.046 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:48.582 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:48.584 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:49.169 [main] ERROR server - [object Object]
+2017-12-19 19:12:49.170 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:53.384 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:53.386 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:53.973 [main] ERROR server - [object Object]
+2017-12-19 19:12:53.974 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:02.516 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:02.518 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
+2017-12-19 19:12:03.110 [main] ERROR server - [object Object]
+2017-12-19 19:12:03.111 [main] ERROR server - Error: ENOENT: no such file or directory, open '/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Server/DeliverWaterSocket/runtime/lock'
