@@ -12,6 +12,8 @@ var MsgServerSchema = new Schema({
   type: {type:Number},                      // 水的类型
   num:{type:Number},                        // 水的数量
   date:{type:Date},                         // 订单生成时间
+  fee:{type:String},                         // 总价
+  platform:{type:String},                    // 平台 支付宝ali 微信wx
   stat:{type:Number}                        // 订单状态，0.. 订单完成成功 1 订单已确认正在配送 2 等待确认 3 订单失败
 });
 var MsgClientSchema = new Schema({
@@ -20,6 +22,8 @@ var MsgClientSchema = new Schema({
   type: {type:Number},                      // 水的类型
   num:{type:Number},                        // 水的数量
   date:{type:Date},                         // 订单生成时间
+  fee:{type:String},                         // 总价
+  platform:{type:String},                    // 平台 支付宝ali 微信wx
   stat:{type:Number}                        // 订单状态，0.. 订单完成成功 1 订单已确认正在配送 2 等待确认 3 订单失败
 });
 

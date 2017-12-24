@@ -43,6 +43,18 @@
     "method": "GET",
     "des": "根据时间查询订单"
   },
+  "queryOrderByStat": {
+    "params": [
+      {
+        "name": "stat",
+        "type": "number",
+        "des": "查询的状态"
+      }
+    ],
+    "_links": "/order/query/stat",
+    "method": "GET",
+    "des": "根据状态查询订单"
+  },
   "finishSend": {
     "params": [
       {
@@ -71,7 +83,19 @@
     "params": [],
     "_links": "/order_notify",
     "method": "POST",
-    "des": "微信支付完成通知 生成一个支付完成的订单, 传入xml数据(https)"
+    "des": "微信小程序支付完成通知 生成一个支付完成的订单, 传入xml数据(https)"
+  },
+  "aliPayAsyncNotify": {
+    "params": [],
+    "_links": "/notify/ali/asyncpay",
+    "method": "POST",
+    "des": "异步通知 (https)"
+  },
+  "wxPayAsyncNotify": {
+    "params": [],
+    "_links": "/notify/wx/asyncpay",
+    "method": "POST",
+    "des": "异步通知 (https)"
   },
   "ok_notify": {
     "params": [

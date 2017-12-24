@@ -21,7 +21,33 @@ exports.queryByDay = function(req, res) {
       return res.status(200).send(NotifyError);
     })
 }
+/**
+    @name queryOrderByStat
+    @link /order/query/stat
+    @method GET
+    @param {'name':'stat','type':'number','des':'查询的状态'}
+    @desc 根据状态查询订单
+**/
+exports.queryByDay = function(req, res) {
+    logger.info('queryByStat Api Call');
 
+    let stat = req.query.stat
+    if(!stat) {
+      stat = 1
+    } else {
+      try {
+        stat = parseInt(stat0)
+      } catch(e) {
+        stat =1
+      }
+    }
+
+    req.models.queryorder.queryByStat(stat).then(result => {
+      return res.status(200).send(result);
+    }).error(e => {
+      return res.status(200).send(NotifyError);
+    })
+}
 /**
     @name finishSend
     @link /order/sended/:order

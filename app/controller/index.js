@@ -1,5 +1,6 @@
 let appC = require('./app.js')
 let deliverCRUDC = require('./deliverCRUD.js')
+let payNotifyC = require('./payNotify.js')
 let socketservercontrollerC = require('./socketservercontroller.js')
 // @require
 
@@ -48,9 +49,12 @@ exports.boot = function(app) {
   app.get('/app/listinfo',appC.listinfo)
   app.get('/app/getLog',appC.getLog)
   app.get('/order/query/day',deliverCRUDC.queryByDay)
+  app.get('/order/query/stat',deliverCRUDC.queryByDay)
   app.get('/order/sended/:order',deliverCRUDC.finishSend)
   app.get('/order/query/id',deliverCRUDC.queryById)
-  app.post('/order_notify',socketservercontrollerC.orderNotify)
+  app.post('/order_notify',payNotifyC.wxTinyPayNotify)
+  app.post('/notify/ali/asyncpay',payNotifyC.aliPayAsyncNotify)
+  app.post('/notify/wx/asyncpay',payNotifyC.wxPayAsyncNotify)
   app.get('/ok_notify/:out_trade_no',socketservercontrollerC.ok_notify)
   // @end
 

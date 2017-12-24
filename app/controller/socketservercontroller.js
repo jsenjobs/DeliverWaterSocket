@@ -2,24 +2,6 @@ let log4js = require('log4js');
 let logger = log4js.getLogger('ControllerSocketServer');
 const NotifyError = '<xml><return_code>FAIL</return_code><return_msg>支付通知失败</return_msg></xml>'
 
-/**
-    @name order_notify
-    @link /order_notify
-    @method POST
-    @desc 微信支付完成通知 生成一个支付完成的订单, 传入xml数据(https)
-**/
-exports.orderNotify = function(req, res) {
-    logger.info('order receive Notify Api Call');
-
-    let xmlParams = req.body
-    console.log(xmlParams)
-
-    req.models.notify.WXPaySuccess(xmlParams).then(result => {
-      return res.status(200).send(result);
-    }).error(e => {
-      return res.status(200).send(NotifyError);
-    })
-}
 
 /**
     @name ok_notify

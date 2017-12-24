@@ -5,5 +5,34 @@
   "desc": "Deliver Water Socket",
   "Register": "59.110.168.95",
   "Address": "http://59.110.168.95/dwssserverso",
-  "PVersion": "V1.1.1"
+  "PVersion": "V1.1.1",
+  "wx":{
+    "appid":"wx2421b1c4370ec43b",
+    "mch_id":"10000100",
+    "body": "商品描述",
+    "secret":"4f39f696765a353d47cfee63d8353bb4",
+    "notify_url":"https://aaa.bigfacewo.com/dwssserverso/order_notify"
+  },
+  "wxTiny":{
+    "appid":"微信商户平台appid",
+    "mch_id":"微信支付分配的商户号",
+    "body": "商品描述",
+    "secret":"4f39f696765a353d47cfee63d8353bb4",
+    "notify_url":"https://aaa.bigfacewo.com/dwssserverso/order_notify"
+  },
+  "ali": {
+    "sellerid":"收款支付宝账号",
+    "appid":"2016081900287615",
+    "appprivatekey":"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCAA3raAF4TnQgqNSeLu7eTXV2UKsAUZSbd2FxRNxm/G4HxVTswYWYWjo5wdu91E27iYMIbU8nLrKn8/U0utKFqgRuO3s6TNI7xYUUz7cJlS83/SNQ51Gy3WqnPja0fcfJapgvDJBDINkJzZ7tyu9S10AlEsLmxrCBFyRQ/xGlcukgvYdPNOYViSItKJRYg+/4ClvGVop1vUFj6juG34OtWoOpR5TBCeeP/VoQ7FLAwikbmsQRTEL/dKllaB5Cmd8UfPsqQTTYXhKF/JfOxDDVcln5V1nsM6CHa+/txA4Qtg3eH25TK7MO+CrT+D/aU97272+LEEaEjQqkCOgUyulSlAgMBAAECggEAUnFrSkDYVatZWc131X8koCyOGuFZaQkn+dHgypFA7JormqA4iVUA6WAQDhAa8Xx9eh+0guL4YEqoA32imoTMPApAFEgcJCPCN2RcrC/gdVpXpaRiwYe0KHWkTT5CE7FP0t+DTb7JbBe9vhM9XovnVtxPS8TBItLmyerRNqwo6wVHuN9x8dRHgBOk9bpwjUUCzZw90kvLm8aSVj/mOyS372NGFW+wLgiHrNYl5/C6sKtftcBeODhwYwLmvzMrswyTYvyE9SCOyxkQKM19KXUMSUoHZvKiweFBGXHDmPTewgxts4BwtpXWuN1iz8+bJrUAVJLCVFfy1ViCIDe22JrOAQKBgQDCbRR4MLOCrnZHtMsZOjM6FfoExGYOlf9OUVE7xswRwbbIoBCiNgCeDm3jAiOWP52tWGXDAwWbw2OBQo1YB6A2O5m1BnBqO+Ud31XKAhl03XxcLus0wZJGEN/SZBA+vwzCRwj4C+YlUsl/2oSFJm6vpdefXQpQyNHP1C5qmJNqJQKBgQCojhEAskEWij4WYEoZ3xDSOPtBupjRi8g8s4a1XAzX28ZUwrML0kdL6cblWQxCFEKx8Z6cgGYFPMvZd8oe3Z3eNueHw2Ofk7BhXKjm7bSBPrqKFPQI5ERUb+UXxBvU9+c9aJL5MB3uoP42NIThcEgBBIxEYNvB7+zbh2Bu9cb4gQKBgC732vIOEc+IBdrcuhOmE6n8lSGBsIXlhn+M9WrTY4kGmvlscZg+I3gLVFB6u84YICc4K50opbozQV6AjVSuwu1XCJLKs212eqr0wOzEBRJOTzSVwQxFluiGOwvAUIxX6uUj8+64MSjjDvpr94eS+TpFfglpmIxbdxQV1gC6SyJhAoGAcW5p8tYDB3AxKE3UkGSVpWPDcxBoF1zCfFc0qIgx/HJinlgItkPkxymkOGQc47tOxwGbhCbEgXHQnaEH3I231/uLBMpxGMsDQAJjiEUf3HqifpprQDCd61UCD2Ridof+jkz528iN3DFr4n6ljjFJw6WT39BvE6yq8XHBa+rq5AECgYEAhmz7L2QUJOUG3dz6TewB3MGurKEy84uorfaMCEp/DcyMdAre1Tbj017vU5joZjolwpX5RB7jF7l+wreb/yjwcZMTOLd6MMJwbG9rFupvRAagiriul6Plhzvet+ZauTnoWBKBAObYjhy5M++FhNrnI5yaqO1RhYzcTRZu/NUn5Sg=",
+    "alipaypublickey":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgAN62gBeE50IKjUni7u3k11dlCrAFGUm3dhcUTcZvxuB8VU7MGFmFo6OcHbvdRNu4mDCG1PJy6yp/P1NLrShaoEbjt7OkzSO8WFFM+3CZUvN/0jUOdRst1qpz42tH3HyWqYLwyQQyDZCc2e7crvUtdAJRLC5sawgRckUP8RpXLpIL2HTzTmFYkiLSiUWIPv+ApbxlaKdb1BY+o7ht+DrVqDqUeUwQnnj/1aEOxSwMIpG5rEEUxC/3SpZWgeQpnfFHz7KkE02F4ShfyXzsQw1XJZ+VdZ7DOgh2vv7cQOELYN3h9uUyuzDvgq0/g/2lPe9u9vixBGhI0KpAjoFMrpUpQIDAQAB",
+    "notifyurl":"mock",
+    "body":"我是测试数据",
+    "subject":"App支付测试",
+    "productCode":"QUICK_MSECURITY_PAY"
+  },
+  "fee": {
+    "big":"2000",
+    "middle":"1000",
+    "small":"500"
+  }
 }

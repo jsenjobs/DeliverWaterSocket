@@ -15,9 +15,15 @@ exports.queryByDay = function(date) {
 
   let query = new Date(moment(d).format('YYYY/MM/DD'))
   let query2 = new Date(moment(query).add(1, 'days'))
-  console.log(query)
-  console.log(query2)
   return Order.find({date: {$gte:query, $lt: query2}}).then(orders => {
+    return {code:0, data:orders}
+  }).error(e => {
+    return {code:1, msg:'查询出错-1'}
+  })
+}
+
+exports.queryByStat = function(stat) {
+  return Order.find({stat: stat}).then(orders => {
     return {code:0, data:orders}
   }).error(e => {
     return {code:1, msg:'查询出错-1'}

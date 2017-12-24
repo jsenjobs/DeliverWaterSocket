@@ -19,3 +19,7 @@ ssh 直接执行命令
 
 ### 参考
 node webpack: http://www.thinksaas.cn/topics/0/606/606564.html
+
+
+# appprivatekey是自己生成的
+# alipaypublickey是阿里的publickey

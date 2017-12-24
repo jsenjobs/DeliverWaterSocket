@@ -1,8 +1,4 @@
-let moment = require('moment')
+let base = 'kPbQIjX+xQc8F0/A6/AocELIjhhZnGbcBN6G4MM/HmfWL4ZiHM6fWl5NQhzXJusaklZ1LFuMo+lHQUELAYeugH8LYFvxnNajOvZhuxNFbN2LhF0l/KL8ANtj8oyPM4NN7Qft2kWJTDJUpQOzCzNnV9hDxh5AaT9FPqRS6ZKxnzM='
 
-let d = Date.now()
-let ddd = new Date('2017/12/23')
-let dd = moment().format('YYYY/MM/DD')
 
-console.log(d)
-console.log(dd)
+console.log(new Buffer(base, 'base64').toString())
