@@ -12,7 +12,7 @@ exports.AddServer = function(socket) {
     if(!sockets.server[id]) {
       sockets.server[id] = socket
     } else {
-      sockets.server[id].disconnect(true)
+      sockets.server[id].close()
       sockets.server[id] = socket
     }
     onSLogin(socket)
@@ -24,7 +24,7 @@ exports.AddClient = function(socket) {
     if(!sockets.client[id]) {
       sockets.client[id] = socket
     } else {
-      sockets.client[id].disconnect(true)
+      sockets.client[id].close()
       sockets.client[id] = socket
     }
     onCLogin(socket)

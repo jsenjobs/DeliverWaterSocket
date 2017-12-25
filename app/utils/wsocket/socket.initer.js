@@ -11,7 +11,7 @@ exports.init = function(httpServer) {
   })
   wsServer.on('connect', socket => {
     logger.info('connect')
-    socket.sendUTF(JSON.stringify({type:'echo', data:'echo data'}))
+    // socket.sendUTF(JSON.stringify({type:'echo', data:'echo data'}))
 
     socket.on('message', msg => {
       if(msg.type === 'utf8') {
@@ -37,11 +37,18 @@ exports.init = function(httpServer) {
             Notifier.NotifyResponse(type, data.data)
           }
         } catch(e) {
-          socket.sendUTF(JSON.stringify({'type':'err', 'msg':'not json text'}))
+          socket.sendUTF(JSON.stringify({'type':'err', 'msg':e}))
         }
       }
     }).on('close', (reasonCode, description) => {
       logger.info('close')
+      if(socket.utype === 'client') {
+        Notifier.DelClient(socket.id)
+      } else {
+        Notifier.DelServer(socket.id)
+      }
+    }).on('error', e => {
+      logger.info('error')
       if(socket.utype === 'client') {
         Notifier.DelClient(socket.id)
       } else {
