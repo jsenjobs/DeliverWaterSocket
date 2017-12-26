@@ -6,6 +6,7 @@ let logger = log4js.getLogger('ServiceNotify');
 let Promise = require("bluebird");
 
 let Deliver = require('../model').deliver;
+let Order = require('../model').deliver;
 let Redis = require('../db/redis.init')
 let Notifier = require('../utils/wsocket/Notifier')
 const NotifyError = '<xml><return_code>FAIL</return_code><return_msg>支付通知失败</return_msg></xml>'
@@ -21,13 +22,12 @@ exports.WXTinyPaySuccess = function(xmlParams) {
 		let key = 'dw:pre:order:' + out_trade_no
 		return Redis.client().get(key).then(content => {
 			let order = JSON.parse(content)
-			Notifier.NotifyServer(mockNotify())
 			if(!order) {
 				return NotifyError
 			}
 			order.stat = 2
-			return Redis.client().set('dw:paied:order:' + out_trade_no, JSON.stringify(order)).then(ok => {
-				if(ok === 'OK') {
+			return new Order(order).save().then(result => {
+				if(result) {
 					Redis.client().expire(key, 0)
 					Redis.client().del(key)
 					return Notifier.NotifyServer(order).then(ok1 => {
@@ -39,7 +39,10 @@ exports.WXTinyPaySuccess = function(xmlParams) {
 				} else {
 					return NotifyError
 				}
+			}).error(e => {
+				return NotifyError
 			})
+
 
 		}).catch(e => {
 			return NotifyError
@@ -67,14 +70,16 @@ exports.aliPayAsyncNotify = function (params) {
 			let key = 'dw:pre:order:' + out_trade_no
 			Redis.client().get(key).then(content => {
 				if(!content) {
-						Redis.clientgetset("dw:finished:order:" + out_trade_no).then(content => {
-							if(content) {
-								resolve("<xml><return_code>SUCCESS</return_code><return_msg>OK</return_msg></xml>")
-							} else {
-								resolve(NotifyError)
-							}
-						})
-						return
+					Order.find({_id: out_trade_no}).then(obj => {
+						if(obj) {
+							resolve("success")
+						} else {
+							resolve(NotifyError)
+						}
+					}).error(e => {
+						resolve(NotifyError)
+					})
+					return
 				}
 				let order = JSON.parse(content)
 				if(!order) {
@@ -89,26 +94,27 @@ exports.aliPayAsyncNotify = function (params) {
 						return
 					}
 				order.stat = 2
-				return Redis.client().set('dw:paied:order:' + out_trade_no, JSON.stringify(order)).then(ok => {
-					if(ok === 'OK') {
-						Redis.client().expire(key, 0)
-						Redis.client().del(key)
-						Redis.client().set("dw:finished:order:" + out_trade_no, "OK", 36000)
-						return Notifier.NotifyServer(order).then(ok1 => {
-							if(ok1) {
-								resolve('success')
+
+				new Order(order).save().then(obj => {
+					if(obj) {
+							Redis.client().expire(key, 0)
+							Redis.client().del(key)
+							return Notifier.NotifyServer(order).then(ok1 => {
+								if(ok1) {
+									resolve('success')
+									return
+								}
+								resolve('fail')
 								return
-							}
-							resolve('fail')
-							return
-						})
+							})
 					} else {
 						resolve('fail')
-						return
 					}
+				}).error(e => {
+					resolve('fail')
 				})
 
-			}).catch(e => {
+			}).error(e => {
 				resolve('fail')
 			})
 		} else {
@@ -131,14 +137,16 @@ exports.wxPayAsyncNotify = function(xmlParams) {
 			let key = 'dw:pre:order:' + out_trade_no
 			Redis.client().get(key).then(content => {
 				if(!content) {
-						Redis.clientgetset("dw:finished:order:" + out_trade_no).then(content => {
-							if(content) {
-								resolve("<xml><return_code>SUCCESS</return_code><return_msg>OK</return_msg></xml>")
-							} else {
-								resolve(NotifyError)
-							}
-						})
-						return
+					Order.find({_id: out_trade_no}).then(obj => {
+						if(obj) {
+							resolve("success")
+						} else {
+							resolve(NotifyError)
+						}
+					}).error(e => {
+						resolve(NotifyError)
+					})
+					return
 				}
 				let order = JSON.parse(content)
 				if(!order) {
@@ -151,23 +159,29 @@ exports.wxPayAsyncNotify = function(xmlParams) {
 						return
 					}
 				order.stat = 2
-				return Redis.client().set('dw:paied:order:' + out_trade_no, JSON.stringify(order)).then(ok => {
-					if(ok === 'OK') {
-						Redis.client().expire(key, 0)
-						Redis.client().del(key)
-						Redis.client().set("dw:finished:order:" + out_trade_no, "OK", 36000)
-						return Notifier.NotifyServer(order).then(ok1 => {
-							if(ok1) {
-								resolve("<xml><return_code>SUCCESS</return_code><return_msg>OK</return_msg></xml>")
+
+
+
+				new Order(order).save().then(obj => {
+					if(obj) {
+							Redis.client().expire(key, 0)
+							Redis.client().del(key)
+							return Notifier.NotifyServer(order).then(ok1 => {
+								if(ok1) {
+									resolve('success')
+									return
+								}
+								resolve('fail')
 								return
-							}
-							resolve(NotifyError)
-							return
-						})
+							})
 					} else {
-						resolve(NotifyError)
+						resolve('fail')
 					}
+				}).error(e => {
+					resolve('fail')
 				})
+
+
 
 			}).catch(e => {
 				resolve(NotifyError)
@@ -180,21 +194,22 @@ exports.wxPayAsyncNotify = function(xmlParams) {
 
 
 
-// mock
-function mockNotify() {
-	let content = {
-		_id: 'trade_no-mock' + require('uuid').v1(),
-		openid: 'openid-mock',
-		type: 0,
-		num: 2,
-		date: Date.now(),
-		stat: 2
-	}
-	return content
-}
-
 // 管理员确认订单即将配送 用户将受到通知
 exports.SaveAndNotifyOrder = function(out_trade_no) {
+
+	return Order.findOneAndUpdate({_id: out_trade_no}, {stat:1}).then(order => {
+		if(order) {
+			order.stat = 1
+			return Notifier.NotifyClient(order).then(ok => {
+				if(ok) return {code:0}
+				return {code:1, msg:'处理出错001'}
+			})
+		} else {
+				return {code:1, msg:'无法查找订单数据'}
+		}
+	}).error(e => {
+		return {code:1, msg:'数据库查询错误', err:e}
+	})
 
 	let rID = 'dw:paied:order:' + out_trade_no
 	return Redis.client().get(rID).then(data => {

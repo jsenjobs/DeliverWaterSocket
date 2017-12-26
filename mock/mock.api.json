@@ -31,54 +31,6 @@
     "method": "GET",
     "des": "获取日志文件，beta"
   },
-  "queryOrderByDay": {
-    "params": [
-      {
-        "name": "date",
-        "type": "string",
-        "des": "查询的时间"
-      }
-    ],
-    "_links": "/order/query/day",
-    "method": "GET",
-    "des": "根据时间查询订单"
-  },
-  "queryOrderByStat": {
-    "params": [
-      {
-        "name": "stat",
-        "type": "number",
-        "des": "查询的状态"
-      }
-    ],
-    "_links": "/order/query/stat",
-    "method": "GET",
-    "des": "根据状态查询订单"
-  },
-  "finishSend": {
-    "params": [
-      {
-        "name": "order",
-        "type": "string",
-        "des": "订单id"
-      }
-    ],
-    "_links": "/order/sended/:order",
-    "method": "GET",
-    "des": "标记完成订单"
-  },
-  "queryOrderById": {
-    "params": [
-      {
-        "name": "id",
-        "type": "string",
-        "des": "查询的用户id （openid）"
-      }
-    ],
-    "_links": "/order/query/id",
-    "method": "GET",
-    "des": "根据时间查询订单"
-  },
   "order_notify": {
     "params": [],
     "_links": "/order_notify",

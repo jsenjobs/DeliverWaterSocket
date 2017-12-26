@@ -1,8 +1,6 @@
 let notify = require('./notify')
-let queryorder = require('./queryorder')
 let models = {
 	'notify' : notify,
-	'queryorder' : queryorder,
 }
 
 exports.boot = function(app) {
