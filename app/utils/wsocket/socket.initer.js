@@ -43,16 +43,16 @@ exports.init = function(httpServer) {
     }).on('close', (reasonCode, description) => {
       logger.info('close')
       if(socket.utype === 'client') {
-        Notifier.DelClient(socket.id)
+        Notifier.DelClient(socket)
       } else {
-        Notifier.DelServer(socket.id)
+        Notifier.DelServer(socket)
       }
     }).on('error', e => {
       logger.info('error')
       if(socket.utype === 'client') {
-        Notifier.DelClient(socket.id)
+        Notifier.DelClient(socket)
       } else {
-        Notifier.DelServer(socket.id)
+        Notifier.DelServer(socket)
       }
     })
   })

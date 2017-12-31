@@ -1,0 +1,10 @@
+2017-12-30 18:12:13.467 [main] INFO RedisIniter - connect
+2017-12-30 18:12:13.477 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-30 18:12:13.484 [main] INFO RedisIniter - Ready
+2017-12-30 18:12:14.454 [main] INFO RedisIniter - connect
+2017-12-30 18:12:14.469 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-30 18:12:14.475 [main] INFO RedisIniter - Ready
+2017-12-30 18:12:15.059 [main] INFO server - 服务器端口：7083
+2017-12-30 18:12:15.065 [main] INFO RedisIniter - connect
+2017-12-30 18:12:15.072 [main] INFO MongoseIniter - MongoDB open:deliverwater
+2017-12-30 18:12:15.079 [main] INFO RedisIniter - Ready

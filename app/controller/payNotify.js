@@ -31,7 +31,6 @@ exports.aliPayAsyncNotify = function(req, res) {
     logger.info('aliPayAsyncNotify Api Call')
 
     let params = req.body
-    return res.status(200).json({code:0});
     req.models.notify.aliPayAsyncNotify(params).then(result => {
         if (result) {
             return res.status(200).send(result);

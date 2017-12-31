@@ -60,5 +60,11 @@
     "_links": "/ok_notify/:out_trade_no",
     "method": "GET",
     "des": "商家确认订单(https)"
+  },
+  "ok_client_notify": {
+    "params": [],
+    "_links": "/ok_client_notify/:out_trade_no/:openid",
+    "method": "GET",
+    "des": "用户确认消息(https)"
   }
 }

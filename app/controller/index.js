@@ -51,6 +51,7 @@ exports.boot = function(app) {
   app.post('/notify/ali/asyncpay',payNotifyC.aliPayAsyncNotify)
   app.post('/notify/wx/asyncpay',payNotifyC.wxPayAsyncNotify)
   app.get('/ok_notify/:out_trade_no',socketservercontrollerC.ok_notify)
+  app.get('/ok_client_notify/:out_trade_no/:openid',socketservercontrollerC.ok_client_notify)
   // @end
 
 }

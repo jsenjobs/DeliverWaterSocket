@@ -28,3 +28,29 @@ exports.ok_notify = function(req, res) {
       return res.status(200).json({code:1, 'msg':'unknown-2'})
     })
 }
+
+/**
+    @name ok_client_notify
+    @link /ok_client_notify/:out_trade_no/:openid
+    @method GET
+    @desc 用户确认消息(https)
+**/
+exports.ok_client_notify = function(req, res) {
+    logger.info('ok_client_notify Api Call');
+
+    let out_trade_no = req.params.out_trade_no
+    let openid = req.params.openid
+    if(!out_trade_no || ! openid) {
+      return res.status(200).json({code:1, 'msg':'参数错误-1'})
+    }
+
+    req.models.notify.ClientOK(out_trade_no, openid).then(result => {
+        if (result) {
+            return res.status(200).json(result);
+        } else {
+            return res.status(200).json({code:1, 'msg':'unknown-1'})
+        }
+    }).error(e => {
+      return res.status(200).json({code:1, 'msg':'unknown-2'})
+    })
+}

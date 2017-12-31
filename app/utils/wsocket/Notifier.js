@@ -31,16 +31,23 @@ exports.AddClient = function(socket) {
   }
 }
 exports.DelServer = function(socket) {
-  delete sockets.server[socket.id]
+  if(socket.id) {
+    console.log('del server:' + socket.id)
+    delete sockets.server[socket.id]
+  }
 }
 exports.DelClient = function(socket) {
-  delete sockets.client[socket.id]
+  if(socket.id) {
+    console.log('del client:' + socket.id)
+    delete sockets.client[socket.id]
+  }
 }
 // end socket hadle
 
 
 // 保证通知必答一次
 exports.NotifyClient = function(order, so, nosave) {
+  console.log('notify client')
   if(nosave) {
     return new Promise(resolve => {
       let socket
@@ -56,17 +63,22 @@ exports.NotifyClient = function(order, so, nosave) {
       resolve(true)
     })
   }
+console.log('save c')
   // 保存到Mongo
   return new MsgClient(order).save().then(ok => {
+console.log('save c' + ok)
     if(ok) {
       let socket
       if(so) {
         socket = so
       } else {
         let openid = order.openid
+        console.log(order.openid)
+        console.log(sockets.client)
         socket = sockets.client[openid]
       }
       if(socket) {
+        console.log('nott')
         socket.sendUTF(JSON.stringify({type:'cnotify', data:order}))
       }
       return true
@@ -77,26 +89,20 @@ exports.NotifyClient = function(order, so, nosave) {
 }
 exports.NotifyServer = function(order, nosave) {
   // 保存到Mongo
-  console.log('no server')
   if(nosave) {
     return new Promise(resolve => {
         let servers = sockets.server
-        console.log('servers:' + servers)
-        for(key in servers) {
-          console.log(JSON.stringify({type:'snotify', data:order}))
+        for(let key in servers) {
           servers[key].sendUTF(JSON.stringify({type:'snotify', data:order}))
         }
         resolve(true)
     })
   }
-  console.log('save:' + JSON.stringify(order) + order._id)
   return new MsgServer(order).save().then(ok => {
     console.log('ok:' + ok)
     if(ok) {
       let servers = sockets.server
-      console.log('servers:' + servers)
-      for(key in servers) {
-        console.log(JSON.stringify({type:'snotify', data:order}))
+      for(let key in servers) {
         servers[key].sendUTF(JSON.stringify({type:'snotify', data:order}))
       }
       return true
@@ -111,6 +117,7 @@ exports.NotifyServer = function(order, nosave) {
 exports.NotifyResponse = function(type, data) {
   // notify成功 直接删除Mongo中的数据
   if(type === 'ok_snotify') {
+    console.log('remove server;' + data._id)
     MsgServer.remove({_id: data._id})
   } else if(type === 'ok_cnotify') {
     MsgClient.remove({_id: data._id})

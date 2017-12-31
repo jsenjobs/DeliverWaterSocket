@@ -7,9 +7,11 @@ let Promise = require("bluebird");
 
 let Deliver = require('../model').deliver;
 let Order = require('../model').deliver;
+let PreOrder = require('../model').porder;
+let MsgServer = require('../model').msgServer;
+let MsgClient = require('../model').msgClient;
 let Redis = require('../db/redis.init')
 let Notifier = require('../utils/wsocket/Notifier')
-const NotifyError = '<xml><return_code>FAIL</return_code><return_msg>支付通知失败</return_msg></xml>'
 
 let EN = process.env
 // 小程序支付成功异步回调执行逻辑
@@ -67,39 +69,40 @@ exports.aliPayAsyncNotify = function (params) {
 				resolve('fail')
 				return
 			}
-			let key = 'dw:pre:order:' + out_trade_no
-			Redis.client().get(key).then(content => {
-				if(!content) {
-					Order.find({_id: out_trade_no}).then(obj => {
-						if(obj) {
-							resolve("success")
-						} else {
-							resolve(NotifyError)
-						}
-					}).error(e => {
-						resolve(NotifyError)
-					})
-					return
-				}
-				let order = JSON.parse(content)
+			PreOrder.findOneAndRemove({_id:out_trade_no}).then(order => {
 				if(!order) {
+						Order.findOne({_id: out_trade_no}).then(obj => {
+							if(obj) {
+								resolve("success")
+							} else {
+								resolve("fail")
+							}
+						}).error(e => {
+							resolve("fail")
+						})
+						return
+				}
+				if(parseFloat(params.total_amount) !== parseFloat(order.fee + '') ||
+					params.out_trade_no !== order._id ||
+					params.app_id !== appid) {
 					resolve('fail')
 					return
 				}
-				if(params.total_amount !== order.fee ||
-					params.out_trade_no !== order._id ||
-					params.seller_id !== sellerid ||
-					params.app_id !== appid) {
-						resolve('fail')
-						return
-					}
-				order.stat = 2
-
-				new Order(order).save().then(obj => {
+				let saveData = {
+					_id:order._id,
+					openid: order.openid,
+					type: order.type,
+					num: order.num,
+					date: order.date,
+					fee: order.fee,
+					platform: order.platform,
+					name: order.name,
+					address: order.address,
+					stat: 2,
+				}
+				new Order(saveData).save().then(obj => {
 					if(obj) {
-							Redis.client().expire(key, 0)
-							Redis.client().del(key)
-							return Notifier.NotifyServer(order).then(ok1 => {
+							return Notifier.NotifyServer(saveData).then(ok1 => {
 								if(ok1) {
 									resolve('success')
 									return
@@ -114,15 +117,19 @@ exports.aliPayAsyncNotify = function (params) {
 					resolve('fail')
 				})
 
+
 			}).error(e => {
 				resolve('fail')
 			})
+
 		} else {
-			resolve('fail')
+			resolve('n')
 		}
 	})
 }
 
+const NotifyOK = "<xml><return_code>SUCCESS</return_code><return_msg>OK</return_msg></xml>"
+const NotifyError = '<xml><return_code>FAIL</return_code><return_msg>支付通知失败</return_msg></xml>'
 
 const WxPayUtils = require('../utils').WxPayUtils
 exports.wxPayAsyncNotify = function(xmlParams) {
@@ -134,60 +141,62 @@ exports.wxPayAsyncNotify = function(xmlParams) {
 				resolve(NotifyError)
 				return
 			}
-			let key = 'dw:pre:order:' + out_trade_no
-			Redis.client().get(key).then(content => {
-				if(!content) {
-					Order.find({_id: out_trade_no}).then(obj => {
-						if(obj) {
-							resolve("success")
-						} else {
-							resolve(NotifyError)
-						}
-					}).error(e => {
-						resolve(NotifyError)
-					})
-					return
-				}
-				let order = JSON.parse(content)
+
+			PreOrder.findOneAndRemove({_id:out_trade_no}).then(order => {
 				if(!order) {
+						Order.find({_id: out_trade_no}).then(obj => {
+							if(obj) {
+								resolve(NotifyOK)
+							} else {
+								resolve(NotifyError)
+							}
+						}).error(e => {
+							resolve(NotifyError)
+						})
+						return
+				}
+
+				if(parseFloat(params.total_fee) !== parseFloat(order.fee  + '')||
+					params.result_code !== 'SUCCESS') {
 					resolve(NotifyError)
 					return
 				}
-				if(params.total_fee !== order.fee ||
-					params.result_code !== 'SUCCESS') {
-						resolve(NotifyError)
-						return
-					}
-				order.stat = 2
 
-
-
-				new Order(order).save().then(obj => {
+				let saveData = {
+					_id:order._id,
+					openid: order.openid,
+					type: order.type,
+					num: order.num,
+					date: order.date,
+					fee: order.fee,
+					platform: order.platform,
+					name: order.name,
+					address: order.address,
+					stat: 2,
+				}
+				new Order(saveData).save().then(obj => {
 					if(obj) {
-							Redis.client().expire(key, 0)
-							Redis.client().del(key)
-							return Notifier.NotifyServer(order).then(ok1 => {
+							return Notifier.NotifyServer(saveData).then(ok1 => {
 								if(ok1) {
-									resolve('success')
+									resolve(NotifyOK)
 									return
 								}
-								resolve('fail')
+								resolve(NotifyError)
 								return
 							})
 					} else {
-						resolve('fail')
+						resolve(NotifyError)
 					}
 				}).error(e => {
-					resolve('fail')
+					resolve(NotifyError)
 				})
-
-
 
 			}).catch(e => {
 				resolve(NotifyError)
 			})
+
 		} else {
-			resolve(NotifyError)
+			resolve('n')
 		}
 	})
 }
@@ -197,48 +206,46 @@ exports.wxPayAsyncNotify = function(xmlParams) {
 // 管理员确认订单即将配送 用户将受到通知
 exports.SaveAndNotifyOrder = function(out_trade_no) {
 
+
 	return Order.findOneAndUpdate({_id: out_trade_no}, {stat:1}).then(order => {
-		if(order) {
-			order.stat = 1
-			return Notifier.NotifyClient(order).then(ok => {
-				if(ok) return {code:0}
-				return {code:1, msg:'处理出错001'}
-			})
-		} else {
-				return {code:1, msg:'无法查找订单数据'}
+
+		console.log(out_trade_no)
+		console.log(order)
+
+		if (!order) {
+			return {code:1, msg:'无法获取订单信息'}
 		}
+		return MsgServer.remove({_id: out_trade_no}).then(ok => {
+			if (!ok) {
+				return {code:1, msg:'更改失败'}
+			} else {
+					let saveData = {
+						_id:order._id,
+						openid: order.openid,
+						type: order.type,
+						num: order.num,
+						date: order.date,
+						fee: order.fee,
+						platform: order.platform,
+						name: order.name,
+						address: order.address,
+						stat: 1
+					}
+					return Notifier.NotifyClient(saveData).then(ok => {
+						if(ok) return {code:0}
+						return {code:1, msg:'处理出错001'}
+					})
+			}
+		})
 	}).error(e => {
 		return {code:1, msg:'数据库查询错误', err:e}
 	})
+}
 
-	let rID = 'dw:paied:order:' + out_trade_no
-	return Redis.client().get(rID).then(data => {
-		try {
-			let data2 = JSON.parse(data)
-			data2.stat = 1
-			console.log(data2)
-			return new Deliver(data2).save().then(ok => {
-				if(ok) {
-					return {code:0, order:data2}
-				} else {
-					return {code:1, msg:'保存订单数据出错'}
-				}
-			})
-		} catch(e) {
-			return {code:1, msg:'订单数据错误'}
-		}
-	}).then(data => {
-		if(data.code === 0) {
-			return Redis.client().del(rID).then(count => {
-				return Notifier.NotifyClient(data.order).then(ok => {
-					if(ok) return {code:0}
-					return {code:1, msg:'处理出错001'}
-				})
-			})
-		} else {
-			return data
-		}
-	}).error(e => {
-		return {code:1, msg:'unknown', err:e}
+exports.ClientOK = function(out_trade_no, openid) {
+	return MsgClient.remove({_id: out_trade_no, openid: openid}).then(result => {
+		return {code:0}
+	}).catch(e => {
+		return {code:1, msg:'确认失败'}
 	})
 }
