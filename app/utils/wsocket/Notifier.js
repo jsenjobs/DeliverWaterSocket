@@ -7,6 +7,7 @@ var sockets = {
   server:{}
 }
 exports.AddServer = function(socket) {
+  if(!socket) return
   let id = socket.id
   if(id) {
     if(!sockets.server[id]) {
@@ -19,6 +20,7 @@ exports.AddServer = function(socket) {
   }
 }
 exports.AddClient = function(socket) {
+  if(!socket) return
   let id = socket.id
   if(id) {
     if(!sockets.client[id]) {
@@ -31,12 +33,14 @@ exports.AddClient = function(socket) {
   }
 }
 exports.DelServer = function(socket) {
+  if(!socket) return
   if(socket.id) {
     console.log('del server:' + socket.id)
     delete sockets.server[socket.id]
   }
 }
 exports.DelClient = function(socket) {
+  if(!socket) return
   if(socket.id) {
     console.log('del client:' + socket.id)
     delete sockets.client[socket.id]
