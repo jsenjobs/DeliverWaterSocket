@@ -1,3 +1,6 @@
+# DeliverWaterSocket
+负责实现服务的通知，使用webSocket实现长连接。
+
 ## ECS root@120.25.217.56
 
 #### TravisCI PM2 express [mocha expect superagent](app test) [grunt](auto app test) [webpack](部署前预处理，打包，未实现)
